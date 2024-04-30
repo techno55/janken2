@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>じゃんけんゲーム - カメラ入力</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/handpose"></script>
+</head>
+<body>
+    <button id="startButton">じゃんけんをする</button>
+
+    <h1>じゃんけんゲーム - カメラ入力</h1>
+    <audio id="jankenSound" src="material/ジャンケン音声.mp3" type="audio/mp3"></audio>
+    <video id="video" width="640" height="480" autoplay></video>
+    <p id="result"></p>
+
+    <script src="janken.js"></script>
+</body>
+</html>
